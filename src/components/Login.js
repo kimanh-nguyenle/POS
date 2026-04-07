@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Login({ onLogin }) {
   const [username, setUsername] = React.useState('');
   const [password, setPassword] = React.useState('');
@@ -40,7 +41,7 @@ export default function Login({ onLogin }) {
             </div>
 
             <h1 className="text-4xl font-bold leading-tight mb-4">
-              Chào mừng trở lại 👋
+              Chào mừng trở lại 
             </h1>
             <p className="text-indigo-100 text-lg leading-8 max-w-md">
               Đăng nhập để quản lý bán hàng, theo dõi đơn hàng và vận hành cửa hàng dễ dàng hơn.
