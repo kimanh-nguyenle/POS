@@ -3,7 +3,7 @@ import { ProductGrid } from './components/ProductGrid';
 import { Cart } from './components/Cart';
 import { Header } from './components/Header';
 import { PaymentModal } from './components/PaymentModal';
-import Login from './components/Login';
+import { Login } from './components/Login';
 import './index.css';
 
 export default function App() {
